@@ -1,8 +1,20 @@
 {
   "name": "wedding-food-planner",
+  "description": "This app can be used to organise and plan food contributions of guest that attend our wedding.",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.1.0",
   "type": "module",
+  "author": {
+    "name": "Mor4thii",
+    "email": "morathii@icloud.com",
+    "url": "http://github.com/mor4thii/"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/mor4thii/wedding-food-planner"
+  },
+  "homepage": "https://github.com/mor4thii/wedding-food-planner#readme",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -24,7 +36,8 @@
     "@typescript-eslint/eslint-plugin": "^6.0.0",
     "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
+    "eslint": "^8.49.0",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",

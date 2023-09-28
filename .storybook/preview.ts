@@ -22,13 +22,13 @@ const preview: Preview = {
 
   decorators: [
     withThemeFromJSXProvider({
-      GlobalStyles: CssBaseline,
       Provider: ThemeProvider,
+      GlobalStyles: CssBaseline,
+      defaultTheme: 'light',
       themes: {
         light: lightTheme,
         dark: darkTheme,
       },
-      defaultTheme: 'light',
     }),
   ],
 };

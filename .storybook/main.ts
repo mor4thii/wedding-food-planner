@@ -30,7 +30,7 @@ const config: StorybookConfig = {
       shouldExtractLiteralValuesFromEnum: true,
       shouldRemoveUndefinedFromOptional: true,
       propFilter: (prop) =>
-        prop.parent ? !/node_modules\/(?!@mui)/.test(prop.parent.fileName) : true,
+        prop.parent ? !/node_modules\/\.pnpm\/(?!@mui)/.test(prop.parent.fileName) : true
     },
   },
 };

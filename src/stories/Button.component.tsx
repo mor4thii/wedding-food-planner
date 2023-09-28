@@ -1,6 +1,8 @@
 import { Button as MuiButton, ButtonProps as MuiButtonProps } from '@mui/material';
 
-export interface ButtonProps extends MuiButtonProps {
+type ButtonBaseProps = Pick<MuiButtonProps, 'color' | 'disabled' | 'fullWidth' | 'size' | 'tabIndex' | 'variant'>;
+
+export interface ButtonProps extends ButtonBaseProps {
     label: string;
 }
 
